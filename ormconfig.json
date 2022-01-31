@@ -1,0 +1,26 @@
+[
+    {
+        "name": "first-connection",
+        "type": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "username": "postgres",
+        "password": "12345678",
+        "database": "db-one",
+        "entities": [ "dist/entity/db-one/**/*.js" ],
+        "synchronize": true,
+        "logging": true
+    },
+    {
+        "name": "second-connection",
+        "type": "postgres",
+        "host": "localhost",
+        "port": 5432,
+        "username": "postgres",
+        "password": "12345678",
+        "database": "db-two",
+        "entities": [ "dist/entity/db-two/**/*.js" ],
+        "synchronize": true,
+        "logging": true
+    }
+]
